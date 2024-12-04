@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.red-button {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.red-button:active {
+    transform: scale(0.9);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
